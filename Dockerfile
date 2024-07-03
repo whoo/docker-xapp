@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.6
 
 RUN apt-get update
 RUN apt-get dist-upgrade
